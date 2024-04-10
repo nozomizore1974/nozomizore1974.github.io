@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/demo.css">
+    <style>
+    .items {
+    width: 130px;
+    color: #fff;
+}
+
+.menu{
+    width: 100%;
+    height: 45px;
+    background: red;
+    line-height: 45px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.menu:hover{
+    overflow: visible;
+    background: black;
+    color: white;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.drop{
+    background: blue;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+}
+.drop:hover{
+    background: black;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="root">
+            1
+            <div class="leaf">1</div>
+            <div class="leaf">2</div>
+            <div class="leaf">3</div>
+        </div>
+        <div class="root">
+            2
+            <div class="leaf">1</div>
+            <div class="leaf">2</div>
+            <div class="leaf">3</div>
+        </div>
+
+    </div>
+        
+    </div>
+</body>
+</html>
