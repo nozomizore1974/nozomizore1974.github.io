@@ -187,19 +187,18 @@ p {
     border-collapse: collapse;
     margin: 20px 10px;
     border: solid rgb(213, 213, 213);
-    background-color: #ecf3f54d;
 }
 .room td {
-    padding: 5px 30px;
     border: solid rgb(213, 213, 213);
-    background-color: #ecf3f54d;
+    padding: 5px 30px;
+}
+.s>td {
+    background-color: #e8f2f264;
 }
 .g>td {
-    border: solid rgb(213, 213, 213);
     background-color: rgba(216, 222, 225, 0.353);
 }
 .w>td {
-    border: solid rgb(213, 213, 213);
     background-color: white;
 }
 .route {
