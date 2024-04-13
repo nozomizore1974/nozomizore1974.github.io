@@ -167,3 +167,36 @@ p {
     font-size: 20px;
     line-height: 40px;
 }
+.addr {
+    font-family: 'semi';
+    font-size: 20px;
+    line-height: 42px;
+    padding: 20px;
+}
+.room {
+    font-family: 'semi';
+    font-size: 18px;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 20px 10px;
+    border: solid rgb(213, 213, 213);
+    background-color: #ecf3f54d;
+}
+.room td {
+    padding: 5px 30px;
+    border: solid rgb(213, 213, 213);
+    background-color: #ecf3f54d;
+}
+.g>td {
+    border: solid rgb(213, 213, 213);
+    background-color: rgba(216, 222, 225, 0.353);
+}
+.w>td {
+    border: solid rgb(213, 213, 213);
+    background-color: white;
+}
+.route {
+    font-family: 'semi';
+    font-size: 20px;
+    line-height: 48px;
+}
