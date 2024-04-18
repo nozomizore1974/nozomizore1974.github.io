@@ -10,3 +10,7 @@ Address and room info are written.
 Route to campus is written.
 
 subp.css is updated.
+### Web Warning from University Cybersecurity Department 18/4/2024
+Warnings from Cybersecurity Depart.
+
+For link pointing towards university and faculty.
