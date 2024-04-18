@@ -15,6 +15,6 @@ For link pointing towards university and faculty.
 ### Access edited - 15/4/2024
 Info of office for visiting lecturers are corrected.
 
-### Web Warning from University Cybersecurity Department 18/4/2024
+### Web Warning from University Cybersecurity Department - 18/4/2024
 Warnings from Cybersecurity Dept.
 For links pointing towards university and faculty in demo directory.
