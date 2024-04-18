@@ -10,12 +10,11 @@ Address and room info are written.
 Route to campus is written.
 
 subp.css is updated.
-<<<<<<< HEAD
-### Web Warning from University Cybersecurity Department 18/4/2024
-Warnings from Cybersecurity Depart.
 
 For link pointing towards university and faculty.
-=======
 ### Access edited - 15/4/2024
 Info of office for visiting lecturers are corrected.
->>>>>>> 431877c (Correct Office info)
+
+### Web Warning from University Cybersecurity Department 18/4/2024
+Warnings from Cybersecurity Dept.
+For links pointing towards university and faculty in demo directory.
