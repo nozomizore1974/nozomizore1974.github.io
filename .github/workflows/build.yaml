@@ -1,5 +1,8 @@
 name: Deploy Hugo Website
 
+env:
+  WC_HUGO_VERSION: '0.125.7'
+
 # 触发条件
 on:
   push:
