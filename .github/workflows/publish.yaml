@@ -30,7 +30,7 @@ jobs:
         with:
           # Fetch history for Hugo's .GitInfo and .Lastmod
           fetch-depth: 0
-          submodule: true
+          submodules: true
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
