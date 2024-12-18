@@ -30,13 +30,12 @@ jobs:
         with:
           # Fetch history for Hugo's .GitInfo and .Lastmod
           fetch-depth: 0
+          submodule: true
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: ${{ env.WC_HUGO_VERSION }}
           extended: true
-      - name: Install Hugo Theme as Submodule
-        run: git submodule update --init --recursive
       - uses: actions/cache@v4
         with:
           path: /tmp/hugo_cache_runner/
