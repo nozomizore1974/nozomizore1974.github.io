@@ -3,44 +3,47 @@ name: Deploy Hugo Website
 env:
   WC_HUGO_VERSION: '0.125.7' 
 
-# 触发条件
 on:
   push:
     branches:
-      - main  # 当代码推送到 main 分支时触发
-  workflow_dispatch:  # 允许从 Actions 手动触发
+      - main
+  workflow_dispatch:
 
-# 权限配置
 permissions:
-  contents: read  # 读取代码库内容
-  pages: write  # 写入 GitHub Pages
-  id-token: write  # 用于身份验证
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest  # 使用最新版本的 Ubuntu 运行环境
+    runs-on: ubuntu-latest
     steps:
-      # 检出代码库
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取完整历史记录，支持 Hugo 的 .GitInfo 和 .Lastmod
+          fetch-depth: 0
 
-      # 设置 Hugo 环境
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.125.7'  # 指定 Hugo 版本
-          extended: true  # 启用 SCSS 支持
+          hugo-version: '0.125.7'
+          extended: true
 
-      # 构建网站
       - name: Build Hugo site
         env:
-          HUGO_ENVIRONMENT: production  # 设置为生产环境
+          HUGO_ENVIRONMENT: production
         run: |
-          hugo --minify  # 直接在工作流的存储空间中生成静态文件
+          hugo --minify --destination public
 
-      # 部署到 GitHub Pages
+      - name: Setup GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website files
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
