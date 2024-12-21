@@ -30,7 +30,7 @@ code:
 error:
   404_title: "找不到网页 :confused:"
   404_error: "404 错误"
-  404_description: "您请求的页面似乎不存在。"
+  404_description: "追逐光的孩子，迷失在茫茫的原野上。"
 
 footer:
   dark_appearance: "切换为深色模式"
@@ -39,7 +39,7 @@ footer:
 
 list:
   externalurl_title: "链接到外部网站"
-  no_articles: "这里还没有任何文章可以列出。"
+  no_articles: "这一片黑暗的荒野，你是这里唯一的光。"
 
 nav:
   scroll_to_top_title: "返回顶部"
