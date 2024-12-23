@@ -5,7 +5,7 @@
 theme = "blowfish" # UNCOMMENT THIS LINE
 baseURL = "https://nozomizore1974.github.io/"
 defaultContentLanguage = "zh-cn"
-defaultContentLanguageInSubDir = true
+defaultContentLanguageInSubDir = false
 
 hasCJKLanguage = true
 
