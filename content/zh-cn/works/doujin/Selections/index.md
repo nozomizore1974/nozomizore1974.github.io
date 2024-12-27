@@ -1,9 +1,11 @@
 ---
 title: 志愿调查
 date: 2024-11-12
+
 authors: 
   - "tsubaki"
-tags: ["八奈见杏菜", "败犬女主太多了！"]
+
+tags: ["八奈见杏菜", "败犬女主太多了！", "短篇小说"]
 series: ["败犬女主同人短篇集"]
 series_order: 1
 ---

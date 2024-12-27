@@ -3,7 +3,8 @@ title: 小鞠知花的上京
 date: 2024-11-30
 authors:
   - "tsubaki"
-tags: ["小鞠知花", "败犬女主太多了！"]
+
+tags: ["小鞠知花", "败犬女主太多了！", "短篇小说"]
 series: ["败犬女主同人短篇集"]
 series_order: 2
 ---
