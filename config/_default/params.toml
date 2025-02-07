@@ -83,6 +83,8 @@ disableTextInHeader = false
   showWordCount = true
   # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
   showZenMode = true
+  # User Customised Params.
+  bookOpened = true
 
 [list]
   showHero = true
