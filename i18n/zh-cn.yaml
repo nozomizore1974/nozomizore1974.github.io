@@ -19,6 +19,9 @@ article:
   part: "-"
   this_article: "本文"
   related_articles: "相关文章"
+  # User Customised
+  part_of_book: "这篇文章属于一个长篇作品"
+  chap: "§"
 
 author:
   byline_title: "作者"
