@@ -10,9 +10,13 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
+#[[main]]
+#  name = "笔记"
+#  pageRef = "notebooks"
+#  weight = 12
+
 [[main]]
   name = "动态"
-  title = "Posts"
   pageRef = "posts"
   weight = 10
 

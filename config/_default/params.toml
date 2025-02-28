@@ -10,11 +10,12 @@ defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
 
 enableSearch = true
-enableCodeCopy = false
+enableCodeCopy = true
 
 replyByEmail = false
+timezone = "Asia/Tokyo"
 
-mainSections = ["works"]
+mainSections = ["works", "notebooks"]
 # robots = ""
 
 disableImageOptimization = false
@@ -75,9 +76,9 @@ disableTextInHeader = false
   showPagination = true
   invertPagination = false
   showReadingTime = true
-  showTableOfContents = false
-  # showRelatedContent = false
-  # relatedContentLimit = 3
+  showTableOfContents = true
+  # showRelatedContent = true
+  # relatedContentLimit = 3
   showTaxonomies = true
   showAuthorsBadges = false
   showWordCount = true
